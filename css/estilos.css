@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 1000px;
+}
+body{
+    padding-left: 5px;
+}
+header{
+    font-family: serif;
+    background: linear-gradient(to right, white, rgb(127, 214, 255));
+    font-size: 4vw;
+    text-align: center;    
+    padding: 10px 0;
+    width: 90vw;
+}
+nav{
+    padding: 5px 0;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgba(33, 52, 95, 0.822);
+    border-radius: 10px;
+    background-color: rgb(83, 139, 241);
+    padding: 2px 5px;
+}
+nav a:hover{
+    background-color: blue;
+}
+
+h1{
+    padding: 7px 2px 0 2px;
+}
+p{
+    padding: 0 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    width: 90vw;
+}
+.cat{
+    padding: 5px;
+    border-radius: 15px;
+}
+.grafiti{
+    width: 90vw;
+    padding: 5px;
+    
+}
+
+footer{
+    text-align: center;
+}
+
+/*------------Pantalla Mediana-----------------*/
+
+@media (641px <= width <= 768px) {
+    header{
+        width: 90vw;
+        font-size: calc(1.2rem + 0.8vw);
+    }
+    nav{ padding-top: 15px;}
+    nav a{
+        margin: 0 3px;
+        padding: 4px 13px;
+    }
+    .div1{
+        display: flex;
+    }
+    .p1{
+        width: 80vw;
+        padding-right: 15px;
+    }
+    .p2{
+        width: 90%;
+    }
+    .grafiti{
+        object-fit:cover;
+    }
+}
+
+
+/*------------Pantalla Grande-----------------*/
+@media (min-width: 768px) {
+    header{
+        width: 90vw;
+        font-size: calc(1.2rem + 0.6vw);
+    }
+    nav{ padding-top: 15px;}
+    nav a{
+        margin: 0 3px;
+        padding: 4px 13px;
+    }
+    .div1{
+        display: flex;
+    }
+    .p1{
+        width: 80vw;
+        padding-right: 15px;
+    }
+    .p2{
+        width: 90%;
+    }
+    .grafiti{
+        object-fit:cover;
+    }
+}
+
+
+
